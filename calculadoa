@@ -1,0 +1,29 @@
+// questão calculadora
+
+#include<iostream>
+#include<cmath>
+
+using namespace std;
+
+int main(){
+
+
+float a,b,c;
+char op;
+cin >> a>>b;
+int calcula(){
+	if(op=="+"){
+            	c=(a+b);
+            	}
+	if(op=="-"){
+            	c=(a-b);
+            	}
+	if(op=="*"){
+            	c=(a*b);
+            	}
+	if(op=="/"){
+            	c=(a/b);
+            	}
+	cout <<  "eh igual a": <<a<<op<<b<<c;
+}
+}
