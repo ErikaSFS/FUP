@@ -1,0 +1,49 @@
+Fazer função que recebe três numeros inteiros e retorna o maior.
+Faça uma função que trẽs notas e uma letra. Se a letra for A, calcule a média aritmerica. Caso seja P, calcule a media ponderada com pesos 2,35.
+Faça uma função que receba n e calcule S: S=2/1 +3/2 +4/3+... n+1/n
+Faça uma função que receba dois inteiros x e y e calcule x elevado a y.
+Faça uma função que receba um inteiro N e calcule S; s=1/1¹ + 1/2³ + 1/3(4)+ .... 1/n (n+1)
+Faça um programa que receba dois horários (hh:mm) e calcule o tempo decorruisdo entre eles. Obs: segundo horario é maior que o primeiro. OBS2: Cada Horario HH:MM É REPRESENTADO POR 2 inteiros.
+
+
+
+1 #include <iostream>
+using namespace std;
+ //Fazer função que recebe três numeros inteiros e retorna o maior.
+
+ int maior3 (){
+     int n, maior= -999999999;
+  for ( int i; i < 3; i++ ){
+      cin >> n;
+      if (maior < n){
+          maior = n;
+      }
+  } return maior;
+ }
+
+ int main(){
+      cout << maior3() ;
+ }
+
+
+
+2 #include <iostream>
+using namespace std;
+
+float notas (float nota1, float nota2, float nota3, char letra){
+    float notas = 0;
+    if (letra== 'a' || letra== 'A'){
+        notas= (nota1+nota2+nota3)/3;
+    } else 
+     notas = ((nota1*2) + (nota2*3) +(nota3*5)) / 10;
+
+
+    
+    return notas;
+}
+ int main (){
+     int nota1,nota2, nota3;
+     char a;
+cin >> nota1 >> nota2>> nota3 >> a;
+cout << notas (nota1,nota2, nota3,a);
+ }
