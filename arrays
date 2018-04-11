@@ -1,0 +1,11 @@
+#arrays #vetores 
+- Estrutura homogenea (mesmo tipo) unidimensional composta 
+- Mesmo inentificador
+- Valores so alocados sequencialmente em memória.
+
+Vetrores em c/c++ 
+ -Variavel 
+ - Precisa definir:
+   tipo,nome, tamanho do vetor
+   
+   
