@@ -47,3 +47,28 @@ float notas (float nota1, float nota2, float nota3, char letra){
 cin >> nota1 >> nota2>> nota3 >> a;
 cout << notas (nota1,nota2, nota3,a);
  }
+
+
+
+Questão 4
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int potencia (int x, int y){
+
+  int potencia = pow (x,y);
+
+
+return potencia;
+
+}
+
+int main (){
+    int x, y,pot;
+     cin >> x >> y;
+      pot = potencia (x,y);
+      cout << pot;
+}
