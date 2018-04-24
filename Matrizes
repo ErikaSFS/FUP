@@ -1,6 +1,7 @@
 entrada de dados com matriz
 int main(){
-int mat[3][3];
+int
+mat[3][3];
 for(int i=0; i<3; i++){
  for int j=0; i<3; j++){
   cin>>mat[3][3];
@@ -37,5 +38,29 @@ for(int i=0; i<3; i++){
   ler_matriz(m,3,3);
   imprimir_matriz(m, 3, 3);
   return 0;
+  }
+  
+Criar função que recebe matriz nxm
+multiplicar todos os elementos pelo maior(n,m<50)
+
+int procurar_maior(int mat[2][50], int m, int n){
+int maior=mat[0][0];
+for(int i=0;i<m;i++){
+  for(int j=o; j<n;j++);
+  if (mat[i][j]>maior{
+  maior=mat[i][j];
+  }
+  return maior;
+  }
+  void multiplicar_matriz(int mat[][], intm, int n,, int mult){
+  for (int i=o; i<m; i++){
+  for(int j=o; j<n;j++){
+  mat[i][j]*=mult;
+  }
+  }
+  
+  void multiplicar_maior(int mat[][50], int m, int n, int mult){
+  int maior=procurar_maior(mat,m,n);
+  multiplicar_matriz(mat,m,n,maior);
   }
   
