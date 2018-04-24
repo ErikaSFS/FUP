@@ -64,3 +64,18 @@ for(int i=0;i<m;i++){
   multiplicar_matriz(mat,m,n,maior);
   }
   
+void ler_matriz(int mat [][50], int m, int n){
+
+}
+void imprimir_matriz(int mat[][50], int m, int n){
+
+}
+
+int main(){
+int m, n, mat[50][50];
+cin >>m >> n;
+ler_matriz(mat,m,n);
+multiplicar_menor(mat, m, n);
+imprimir matriz(mat,m,n);
+return 0;
+}
