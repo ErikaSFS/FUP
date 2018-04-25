@@ -1,0 +1,25 @@
+Para criar uma estrutura de dados usamos a palavra reservada struct. 
+Toda estrutura deve ser criada antes de qualquer função ou mesmo da função principal main. 
+Toda estrutura tem nome e seus membros são declarados dentro de um bloco de dados. 
+Após a definição de seus membros no bloco de dados, terminamos a linha com um ponto-e-vírgula (;).
+Portanto:
+struct nome_da_estrutura { tipo_de_dado nome_do_membro; };
+
+Exemplo: se fossemos criar uma estrutura de dados para simbolar uma data faríamos:
+#include <iostream>
+using namespace std;
+
+struct data {
+int dia;
+int mes;
+int ano;  
+};
+ int main(){
+ data hoje;
+hoje.dia = 23;
+hoje.mes = 9;
+hoje.ano = 2008;
+cout <<"Hoje e "<<hoje.dia<<"/"<<hoje.mes<<"/"<<hoje.ano<<endl;
+system ("pause");
+return EXIT_SUCCESS;
+}
